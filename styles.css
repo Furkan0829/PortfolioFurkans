@@ -1,0 +1,253 @@
+@media (min-width : 700px) {
+
+
+body {
+  line-height: 1.8;
+  font-family: Poppins, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: hsl(0, 0%, 0%);
+  text-decoration: white;
+  color: white;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+header {
+  background-color: transparent;
+  color: #fff;
+  padding-left: 300px;
+  text-align: left;
+  display: flex;
+  border-bottom: 5px;
+  font-family: Arial, Helvetica, San sans-serif;
+  
+}
+.top {
+  color: #fff;
+  padding: 15px;
+  padding-left: 200px;
+  text-align: left;
+  display: flex;
+  text-decoration: solid;
+  border-bottom: 5px;
+  font-family: Arial, Helvetica, San sans-serif;
+  justify-content: right;
+}
+
+.fp {
+  margin: 30px 0;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+header li {
+  font-size: x-large;
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  unicode-bidi: isolate;
+}
+
+header {
+  color: #fff;
+}
+.Home{
+    color: white;
+  text-align: left;
+  text-decoration: solid;
+  font-weight: bolder;
+}
+.Project{
+  font-weight: bolder;
+  color: #fff;
+  text-decoration: none;
+}
+.Contactme{
+  font-weight: bolder;
+  color: #fff;
+  text-decoration: none;
+}
+.Myself {
+  flex: 1;
+  font-size: larger;
+}
+.Resume{
+  text-decoration: none;
+  font-weight: bolder;
+  color: #ffffff;
+}
+
+.intro {
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+  padding: 20px 320px;
+  padding-right: 520px;
+  padding-top: 50px;
+  color: white;
+}
+.intro h1 {
+    font-size: 50px;
+    margin: 0%;
+}
+
+.intro h2{
+    color: #cbbd24;
+}
+
+.intro p {
+  color: rgba(255, 255, 255, 0.556);
+    font-size:15px;
+    max-width: 600px;
+}
+
+.buttons {
+  margin-top: 10px;
+  margin-right: 15px;
+  padding: 8px 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: rgb(64, 2, 116);
+  background-color: white;
+  border: 1.4px solid;
+  border-radius: 20px;
+  font-size: 18px;
+}
+
+.buttons a {
+  text-decoration: none;
+  font-weight: bolder;
+  color: #000000;
+}
+
+.heading {
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+.coverlink{
+  text-decoration: none;
+  color: #fff;
+}
+
+.projects{
+  margin: 50px 150px;
+}
+
+.projimpl{
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+.proj {
+  display: block;
+  padding: 20px;
+}
+
+img {
+  height: 280px;
+  width: 550px;
+}
+
+.desc p {
+  color: #ffffff74;
+}
+
+h4{
+  font-size: larger;
+  text-align: center;
+}
+
+.resume {
+  margin: 40px;
+  text-align: center;
+}
+.resume p{
+  color: rgba(255, 255, 255, 0.551);
+  margin: 0px 50px;
+  padding: 10px 50px;
+  font-weight: lighter;
+}
+
+.forcontacts {
+  justify-items: center;
+  margin: 50px 0px;
+}
+
+.opt {
+  width: 100%;
+  margin: 20px;
+  justify-content: space-around;
+  display: flex;
+}
+
+.outerbox {
+  text-align: center;
+}
+
+.forevery {
+  margin: 20px;
+  height: 100px;
+  width: 100px;
+  background-color: #55505085;
+  border-radius: 50%;
+  align-content: center;
+  text-align: center;
+
+}
+span {
+  color: #c5a100f1;
+  font-size: 25px;
+}
+
+.titles {
+  color: white;
+  text-decoration: none;
+  font-family: Arial, Helvetica, San sans-serif;
+  font-size: large;
+  font-weight: bold;
+}
+.Contact{
+  text-align: center;
+  font-size: x-large;
+}
+.linkedin {
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  padding-right: 50px;
+  padding-bottom: 50px;
+}
+.github {
+  color: #fff;
+  text-decoration: none;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+}
+.mail {
+  color: #fff;
+  text-decoration: none;
+  padding-left: 50px;
+  padding-bottom: 50px;
+}
+footer {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: transparent;
+  border: #4a0076;
+  border-width: 10px;
+  color: rgba(255, 255, 255, 0.523);
+}
+}
